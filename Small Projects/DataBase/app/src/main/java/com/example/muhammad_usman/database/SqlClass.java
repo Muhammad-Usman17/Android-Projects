@@ -70,6 +70,7 @@ public class SqlClass extends SQLiteOpenHelper{
         SQLiteDatabase db=this.getWritableDatabase();
         db.delete(TABLE_CONTACTS,KEY_ID+" = ?",new String[]{String.valueOf(contact.getIDs())});
 
+        db.
 
     }
     public Cursor getData() {
